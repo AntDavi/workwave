@@ -4,6 +4,9 @@
     "web": {
       "bundler": "metro"
     },
+    "splash": {
+      "image": "./assets/splash.png"
+    },
     "plugins": [
       "expo-router"
     ],
