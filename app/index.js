@@ -28,7 +28,9 @@ const Home = () => {
                 <View
                     style={styles.container}
                 >
-                    <Welcome/>
+                    <Welcome
+                        
+                    />
                     <Popularjobs/>
                     <Nearbyjobs/>
                 </View>
