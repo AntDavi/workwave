@@ -10,8 +10,8 @@ const useFetch = (endpoint, query) => {
         method: "GET",
         url: `https://jsearch.p.rapidapi.com/${endpoint}`,
         headers: {
-            "X-RapidAPI-Key": '5e2eea1be0msh3e0910dca3fdd56p1a500fjsn8d732ae72751',
-            "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+            "X-RapidAPI-Key": 'KEY HERE',
+            "X-RapidAPI-Host": 'HOST HERE',
         },
         params: { ...query },
     };
